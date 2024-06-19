@@ -16,7 +16,9 @@ const App = () => {
         />
       </div>
       <div className="preview">
-        <pre>{value}</pre>
+        <h1>
+          <pre>{value}</pre>
+        </h1>
         {value.length === 0 && <p className="loading">loading...</p>}
       </div>
     </section>
