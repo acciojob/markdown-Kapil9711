@@ -20,6 +20,10 @@ const App = () => {
           {/* {strArr} */}
           <strong>Heading</strong>
         </h1>
+        <h1>
+          {/* {strArr} */}
+          <strong>bold</strong>
+        </h1>
         {value.length === 0 && <p className="loading">loading...</p>}
       </div>
     </section>
