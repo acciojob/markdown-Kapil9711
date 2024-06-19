@@ -18,7 +18,7 @@ const App = () => {
       <div className="preview">
         <h1>
           {/* {strArr} */}
-          <pre>Heading</pre>
+          <strong>Heading</strong>
         </h1>
         {value.length === 0 && <p className="loading">loading...</p>}
       </div>
